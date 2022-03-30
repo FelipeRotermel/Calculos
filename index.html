@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+    <title>IMC</title>
+</head>
+<body>
+
+    <main>
+
+        <section>
+
+            <form id="formulario">
+                
+                <h1>Calculadora IMC</h1>
+                    
+                <label for="massa"><strong>Massa</strong></label><br>
+                <input name="massa" type="number" placeholder="Massa em kg"/><br><br>
+                
+                <label for="metros"><strong>Altura</strong></label><br>
+                <input name="metros" type="number" placeholder="Altura em cm"/><br><br>
+                
+                <label for="imc"><strong>IMC</strong></label><br>
+                <input name="imc" type="number" disabled="disabled"/><br><br>
+
+                <label for="status"><strong>Status</strong></label><br>
+                <input name="status" type="text" disabled="disabled"/><br><br>
+                        
+                <button class="calcular" type='button' onclick="calcularIMC();"><strong>Calcular</strong></button>
+                
+            </form>
+
+        </section>
+
+        <aside>
+
+            <button class="pagina"><a href="index2.html"><strong>Bhaskara</strong></a></button>
+
+        </aside>
+
+    </main>
+    
+</body>
+</html>
